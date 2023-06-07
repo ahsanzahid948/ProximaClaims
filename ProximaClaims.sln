@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProximaClaims", "ProximaClaims.csproj", "{D99BEACA-31D5-4359-A2AB-72A9528B72DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D99BEACA-31D5-4359-A2AB-72A9528B72DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99BEACA-31D5-4359-A2AB-72A9528B72DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99BEACA-31D5-4359-A2AB-72A9528B72DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99BEACA-31D5-4359-A2AB-72A9528B72DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FCFAC21-F8E4-4EBA-ADBC-F8FC0D18FCE2}
+	EndGlobalSection
+EndGlobal
