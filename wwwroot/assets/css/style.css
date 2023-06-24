@@ -891,14 +891,14 @@
             text-decoration: none;
         }
 
-    .footer {
-        margin-top: 5rem;
-        background-image: url('../img/footer.jpg');
-        background-size: cover;
-        transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-        position: relative;
-        z-index: 1;
-    }
+.footer {
+    margin-top: 5rem;
+    background-image: url('../../images/background/pexels-artem-podrez-5726793.jpg');
+    background-size: cover;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    position: relative;
+    z-index: 1;
+}
 
         .footer::before {
             z-index: -1;
