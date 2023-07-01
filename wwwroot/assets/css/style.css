@@ -5,7 +5,7 @@
   opacity: 1;
 }
 .logo img{
-  max-height: 200px !important;
+  max-height: 130px !important;
 }
 .top-header-holder{
   display: flex;
@@ -282,11 +282,17 @@
                 background-color: #ffffff;
             }
 
-    .hero-section {
-        background-image: url('../img/background.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+.hero-section {
+   /* background-image: url('../../images/background/bellmedex-medical-billing-comp.jpg');*/
+    /*background-image: url('../../images/background/p3care-medical-billing-services-banner (1).jpg');*/
+
+
+    background-image: url('../../images/logo/medical-billing-services.jpg');
+    /* background-image: url('../img/background.png');*/
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
     .h2 {
         display: block;
