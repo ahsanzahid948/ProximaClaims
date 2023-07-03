@@ -1,4 +1,5 @@
 ﻿  <!-- Bredcrumb Start  -->
+@inject ProximaClaims.Services.IHelper Myhelper
 <section class="container-fluid breadcrumb">
     <div class="container">
         <div class="page-title-inner">
@@ -32,7 +33,7 @@
                     <div class="card-body">
                         <div class="heading text-center pt-4 pb-4">
                             <h2>Complete Revenue Cycle Management</h2>
-                            <p>Florence Medical Billing</p>
+                            <p>@Myhelper.GetProjectInfo("BillingName")</p>
                         </div>
                         <ul>
                             <li>
