@@ -1,4 +1,62 @@
-﻿
-
-<h1>Under Constraction</h1>
-
+﻿  @inject ProximaClaims.Services.IHelper Myhelper
+<section class="container-fluid contact-us-sec">
+    <div class="container">
+      <div class="row d-flex justify-content-center gap-3">
+        <div class="col-12 col-md-5">
+          <span>Any questions?</span>
+          <h2>Request a call-back to get a free audit of your Practice!</h2>
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Your name*">
+            </div>
+            <div class="col-md-6">
+              <input type="number" class="form-control" id="phone" placeholder="Phone number...">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Practice Name">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Website">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Approximate revenue collection per month">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="Claim submission frequency per month">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" placeholder="Message..."></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn get-quote">Get a Quote</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="custom-care">
+            <h4>Need professional Medical billing services? Let’s discuss this with us!</h4>
+          </div>
+          <div class="opening-time">
+            <div class="d-flex gap-3">
+              <i class="bi bi-headphones"></i>
+              <p>24/7 hours customer support</p>
+            </div>
+            <div class="d-flex gap-3">
+              <i class="bi bi-hand-thumbs-up"></i>
+              <p>
+                100% Customer Satisfaction</p>
+            </div>
+          </div>
+          <div class="contact-number">
+            <div class="d-flex gap-3">
+              <i class="bi bi-telephone"></i>
+              <div class="pt-2">
+                <span>Call us for information</span>
+                <a href="tel:">@Myhelper.GetProjectInfo("Phone")</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
