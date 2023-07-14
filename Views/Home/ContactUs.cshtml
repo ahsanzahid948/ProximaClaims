@@ -5,27 +5,27 @@
         <div class="col-12 col-md-5">
           <span>Any questions?</span>
           <h2>Request a call-back to get a free audit of your Practice!</h2>
-          <form class="row g-3">
+                <form class="row g-3" action="/Home/SaveContact">
             <div class="col-md-6">
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Your name*">
+              <input type="email" required class="form-control" name="Email" id="inputEmail4" placeholder="Your email*">
             </div>
             <div class="col-md-6">
-              <input type="number" class="form-control" id="phone" placeholder="Phone number...">
+                        <input type="number" required class="form-control" name="Phone" id="phone" placeholder="Phone number...">
             </div>
             <div class="col-12">
-              <input type="text" class="form-control" placeholder="Practice Name">
+                        <input type="text" required class="form-control" placeholder="Practice Name" name="Practice">
             </div>
             <div class="col-12">
-              <input type="text" class="form-control" placeholder="Website">
+                        <input type="text" class="form-control" placeholder="Website" name="Website">
             </div>
             <div class="col-12">
-              <input type="text" class="form-control" placeholder="Approximate revenue collection per month">
+                        <input type="text" class="form-control" placeholder="Approximate revenue collection per month" name="Revenue">
             </div>
             <div class="col-12">
-              <input type="text" class="form-control" placeholder="Claim submission frequency per month">
+                        <input type="text" class="form-control" placeholder="Claim submission frequency per month" name="ClaimPerMonth">
             </div>
             <div class="col-12">
-              <textarea class="form-control" placeholder="Message..."></textarea>
+                        <textarea required class="form-control" placeholder="Message..." name="Message"></textarea>
             </div>
             <div class="col-12">
               <button type="submit" class="btn get-quote">Get a Quote</button>

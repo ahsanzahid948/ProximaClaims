@@ -30,7 +30,10 @@ namespace ProximaClaims.Controllers
         {
             return View();
         }
-        
-     
+        public IActionResult SaveContact(Contact contact)
+        {
+            return RedirectToAction("Index");
+        }
+
     }
 }
