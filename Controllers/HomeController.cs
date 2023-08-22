@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProximaClaims.Models;
-using System.Diagnostics;
 
 namespace ProximaClaims.Controllers
 {
@@ -34,6 +33,9 @@ namespace ProximaClaims.Controllers
         {
             return RedirectToAction("Index");
         }
-
+        public IActionResult MedicalBiling()
+        {
+            return View();
+        }
     }
 }

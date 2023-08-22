@@ -962,17 +962,17 @@
             padding-top: 1.5rem;
         }
 
-    .breadcrumb {
-        background-color: #ffffff;
-        background-position: center center;
-        background-image: url('../img/about-us.png');
-        background-size: cover;
-        text-align: center;
-        position: relative;
-        z-index: 1;
-        padding-top: 126px;
-        padding-bottom: 116px;
-    }
+.breadcrumb {
+    background-color: #ffffff;
+    background-position: center center;
+    background-image: url('../../assets/img/about-us.png');
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 126px;
+    padding-bottom: 116px;
+}
 
         .breadcrumb:before {
             z-index: -1;
