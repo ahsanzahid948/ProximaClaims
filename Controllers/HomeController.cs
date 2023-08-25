@@ -35,7 +35,7 @@ namespace ProximaClaims.Controllers
         }
         public IActionResult MedicalBiling()
         {
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }
