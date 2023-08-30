@@ -12,6 +12,15 @@ namespace ProximaClaims.Controllers
         {
             return View();
         }
+        public IActionResult AccountReceivable()
+        {
+            return View();
+        }
+        public IActionResult CredentialingEnrollment()
+        {
+            return View();
+        }
+        
     }
     
 }
