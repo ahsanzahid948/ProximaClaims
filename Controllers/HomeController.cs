@@ -1,15 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProximaClaims.HelperModels;
 using ProximaClaims.Models;
+using ProximaClaims.Services;
 
 namespace ProximaClaims.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IMailService _mailService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IMailService mailService)
         {
             _logger = logger;
+            _mailService= mailService;
         }
 
         public IActionResult Index()
@@ -29,9 +33,20 @@ namespace ProximaClaims.Controllers
         {
             return View();
         }
-        public IActionResult SaveContact(Contact contact)
+        public async Task<IActionResult> SaveContact(Contact contact)
         {
-            return RedirectToAction("Index");
+            try
+            {
+               
+                await _mailService.SendEmailAsync(contact);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+
+                return RedirectToAction("Index");
+            }
+            
         }
         public IActionResult MedicalBiling()
         {
