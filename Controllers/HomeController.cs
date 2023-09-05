@@ -29,6 +29,7 @@ namespace ProximaClaims.Controllers
         public IActionResult ContactUs()
         {
 
+
             return View();
         }
         
