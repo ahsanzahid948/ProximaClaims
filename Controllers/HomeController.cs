@@ -34,7 +34,10 @@ namespace ProximaClaims.Controllers
         {
             return View();
         }
-        
-     
+        public IActionResult NewMethod()
+        {
+            return View();
+        }
+
     }
 }
