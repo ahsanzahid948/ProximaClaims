@@ -1,6 +1,7 @@
 name: dotnet package
 
-on:
+
+on: 
  push:
   branches:
       - main

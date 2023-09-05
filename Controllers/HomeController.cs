@@ -15,11 +15,15 @@ namespace ProximaClaims.Controllers
 
         public IActionResult Index()
         {
+
+
             return View();
         }
 
         public IActionResult Pricing()
         {
+
+
             return View();
         }
         public IActionResult About()
@@ -28,7 +32,6 @@ namespace ProximaClaims.Controllers
         }
         public IActionResult ContactUs()
         {
-
             return View();
         }
         
