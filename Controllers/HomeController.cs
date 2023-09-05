@@ -15,6 +15,8 @@ namespace ProximaClaims.Controllers
 
         public IActionResult Index()
         {
+
+
             return View();
         }
 
