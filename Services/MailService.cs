@@ -21,6 +21,8 @@ namespace ProximaClaims.Services
             {
                 MailSettings mailSettings = new MailSettings() { Host = "proximaclaims.com", Mail = "info@proximaclaims.com", Port = 25, Password = "!Proximaclaims" };
 
+
+
                 var smtpClient = new SmtpClient(mailSettings.Host, mailSettings.Port);
                 smtpClient.Credentials = new System.Net.NetworkCredential(mailSettings.Mail, mailSettings.Password);
                 smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
