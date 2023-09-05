@@ -20,6 +20,8 @@ namespace ProximaClaims.Controllers
 
         public IActionResult Pricing()
         {
+
+
             return View();
         }
         public IActionResult About()
